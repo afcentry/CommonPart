@@ -1,4 +1,0 @@
-combuiltin
-commonvar
-smysql
-sredis
