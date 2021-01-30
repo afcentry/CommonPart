@@ -47,4 +47,4 @@ class CommonVar:
 
 
 class ProxyUnit:
-    URL = "https://proxypool.io.mlj162.com/proxy/getitem/wbgroupdata"
+    URL = None
