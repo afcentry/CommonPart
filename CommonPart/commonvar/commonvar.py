@@ -23,6 +23,8 @@ class CommonDB:
 
 
 class CommonVar:
+    model_name = 'default'
+    global_proxy = False
     trytimes = "trytimes"  # 发送请求失败重试次数
     ifproxy = "ifproxy"  # 代理状态
     proxy = "proxy"  # 代理参数
@@ -47,4 +49,4 @@ class CommonVar:
 
 
 class ProxyUnit:
-    URL = None
+    URL = "https://proxypool.io.mlj162.com/proxy/getitem/{}".format(CommonVar.model_name)
